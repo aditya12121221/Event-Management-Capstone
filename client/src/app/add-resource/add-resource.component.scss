@@ -1,0 +1,78 @@
+/* Main container styling */
+div {
+  padding: 5px;
+  background-color: #a4bab5;
+  color: #e8f1ef;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #3D8D7A;
+}
+
+/* Form container and labels */
+form div {
+  margin-bottom: 2px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 2px; /* Adjusted margin */
+  color: #fbffe4;
+}
+
+/* Input fields */
+input[type="text"] {
+  width: 50%;
+  padding: 8px; /* Adjusted padding */
+  border: 1px solid #fbffe4;
+  border-radius: 5px;
+  margin-bottom: 8px; /* Adjusted margin */
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Error message */
+div *ngIf {
+  color: #3D8D7A;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #A3D1C6;
+  color: #FBFFE4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #B3D8A8;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #A3D1C6;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #B3D8A8;
+  color: #3D8D7A;
+}
+
+tr:nth-child(even) {
+  background-color: #3D8D7A;
+}
